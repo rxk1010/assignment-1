@@ -1,0 +1,68 @@
+/* Google font */
+body{
+  font-family: 'Poppins', sans-serif;
+  margin:0;
+  background-color:#f4f4f4;
+  color:#222;
+  line-height:1.6;
+}
+
+/* Tag selector styling (2 HTML tag selectors) */
+h1{ color:#111; }
+h2{ color:#333; }
+
+/* Navigation GRID styling */
+nav{
+  margin-top:15px;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap:10px;
+}
+
+/* Style nav a links */
+nav a{
+  color:#0077cc;
+  text-decoration:none;
+  font-weight:600;
+  padding:10px;
+  background:#ffffff;
+  border-radius:8px;
+  text-align:center;
+}
+
+/* Hover effect */
+nav a:hover{
+  color:#ff6600;
+}
+
+/* Section spacing + NEW CSS property from MDN */
+section{
+  padding:20px;
+  margin:20px;
+  background:white;
+
+  /* New CSS property */
+  scroll-margin-top:80px;
+}
+
+/* GRID Image Gallery */
+.gallery{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap:15px;
+  margin-top:15px;
+}
+
+.gallery img{
+  width:100%;
+  height:250px;
+  object-fit:contain;   /* keeps full image visible */
+  background:white;     /* fills empty space */
+  border-radius:8px;
+}
+
+/* Class styling */
+.author{
+  font-style:italic;
+  margin:20px;
+}
